@@ -1,0 +1,22 @@
+{
+  "name": "ithillel-16apr-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest", 
+    "startTesting": "jest", 
+    "sayHello": "echo 'Hello'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "type":"module"
+
+}
