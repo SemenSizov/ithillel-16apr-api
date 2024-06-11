@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-class BaseController {
+export class BaseController {
     constructor() {
         this._axiosConfig = {
             baseURL: 'https://qauto.forstudy.space/api',
@@ -11,8 +11,8 @@ class BaseController {
 
     async login() {
         const authResp = await this._axios.post('/auth/signin', {
-            email: 'john_doe@test.com',
-            password: 'John_D0e',
+            email: 'lenchik13@ukr.net',
+            password: 'Oleg16111987',
             remember: false,
         })
         console.log(authResp.headers['set-cookie'])
@@ -35,5 +35,3 @@ class BaseController {
         })
     }
 }
-
-module.exports.BaseController = BaseController

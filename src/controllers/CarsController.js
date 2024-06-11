@@ -1,6 +1,6 @@
 import { BaseController } from './BaseController'
 
-class CarsController extends BaseController {
+export class CarsController extends BaseController {
     constructor() {
         super()
         this.API_CARS = '/cars'
@@ -23,5 +23,3 @@ class CarsController extends BaseController {
         return this.delete(this.API_CARS_ID.replace('{id}', id))
     }
 }
-
-module.exports.CarsController = CarsController

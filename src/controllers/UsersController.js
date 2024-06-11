@@ -1,6 +1,6 @@
 import { BaseController } from './BaseController'
 
-class UsersController extends BaseController {
+export class UsersController extends BaseController {
     constructor() {
         super()
         this.API_USERS_PROFILE = '/users/profile'
@@ -15,5 +15,3 @@ class UsersController extends BaseController {
         return this.get(this.API_USERS_CURRENT)
     }
 }
-
-module.exports.UsersController = UsersController
