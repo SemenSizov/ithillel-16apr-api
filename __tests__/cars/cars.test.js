@@ -1,4 +1,4 @@
-const { CarsController } = require('../../src/controllers/CarsController')
+import { CarsController } from '../../src/controllers/CarsController'
 
 const carsController = new CarsController()
 

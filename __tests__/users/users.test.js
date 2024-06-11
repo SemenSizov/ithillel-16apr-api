@@ -1,4 +1,4 @@
-const { UsersController } = require('../../src/controllers/UsersController.js')
+import { UsersController } from '../../src/controllers/UsersController'
 
 const usersController = new UsersController()
 

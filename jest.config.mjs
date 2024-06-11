@@ -7,6 +7,7 @@
 const config = {
     // Indicates which provider should be used to instrument code for coverage
     coverageProvider: 'v8',
+    transform: {},
 
     // A path to a module which exports an async function that is triggered once before all test suites
     // globalSetup: undefined,

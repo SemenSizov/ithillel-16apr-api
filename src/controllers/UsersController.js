@@ -1,4 +1,4 @@
-const { BaseController } = require('./BaseController')
+import { BaseController } from './BaseController'
 
 class UsersController extends BaseController {
     constructor() {
